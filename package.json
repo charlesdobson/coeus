@@ -1,0 +1,36 @@
+{
+  "name": "coeus",
+  "version": "0.0.1",
+  "description": "An application to organize and manage company interview questions",
+  "main": "index.js",
+  "author": "Charles Dobson",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --hot --open"
+  },
+  "dependencies": {
+    "file-loader": "^6.0.0",
+    "lodash": "^4.17.15",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-icons": "^3.10.0",
+    "react-router-dom": "^5.2.0",
+    "react-spring": "^8.0.27",
+    "styled-components": "^5.1.0",
+    "styled-normalize": "^8.0.7"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-react": "^7.9.4",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-styled-components": "^1.10.7",
+    "html-webpack-plugin": "^4.3.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
